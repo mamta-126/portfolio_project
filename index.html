@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!-- we have created a navbar header section -->
+    <header>
+        <nav>
+         <div class="left">Portfolio</div>
+         <div class="right">
+
+            <ul>
+            <li><a href="#hom">Home</li></a>
+            <li><a href="#about">About</li></a>
+            <li><a href="#services">Services</li></a>
+            <li><a href="#portfolio">Portfolio</li></a>
+            <li><a href="#contactme">Contact Me</li></a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+      <!-- we have to make main section -->
+
+        <!-- HOME SECTION  -->
+
+      <section class="home" id="hom">
+    
+         
+        <div class="home-content">
+            <h3>Hello , It's Me</h3>
+            <h1 class="header-text">Mamta Yadav</h1>
+            <h3>And I'm a <span class="imp"> Web Developer</span></h3>
+          
+            
+                                                       <!-- do it later -->
+
+             <div class="home-img">
+                <img class="img-content" src="profile.jpeg" alt=""> 
+            </div> 
+            
+            
+            
+
+            <!-- <ABOUT SECTION> -->
+
+              <div id="about">
+                <div class="container">
+                  <div class="row">
+                    <div class="about-col-1">
+                      <img src="about.jpeg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                      <h3 class="sub-title">About Me</h3>
+                      <p class="para-1">Motivated Frontend Developer with hands-on experience in building responsive interfaces and full‑stack web features using 
+                                         HTML, CSS, JavaScript, Django, and MySQL.
+                         Seeking an opportunity to contribute to scalable web applications while strengthening my technical expertise. </p>
+                        <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')">SKILLS </p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+             
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                          <li><span>Languages:</span><br>HTML5, CSS3, JavaScript, C/C++</li>
+                          <li><span>Frameworks:</span><br>Bootstrap, Django, React.js</li>
+                          <li><span>Database:</span><br>MySQL</li>
+                          <li><span>Tools:</span><br>VS Code, Git, GitHub, XAMPP</li>
+                          <li><span>Other:</span>REST APIs , MS Excel, Word, PowerPoint, Email, ChatGPT etc.</li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                          <li><span>Electrocus Solution</span><br>Training : Full Stack Development <br>08/2025-01/2026</li>
+                          <li><span>Web Development Intern | iStudio</span><br> Designed and developed website components using HTML, CSS, and JavaScript.
+                             Completed project tasks ahead of schedule and received outstanding performance remarks from mentors.<br>02/2025-03/2026</li>
+                          <li><span>Web Development Intern | Hex Softwares </span><br>Completed a 4‑week virtual internship focused on frontend and backend web development.    
+                         Implemented responsive layouts and optimized website performance; received appreciation for dedication and hard work.<br>Aug 2025 – Sep 2025</li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-contents" id="education">
+                        <ul>
+                          <li><span>MCA</span><br>From  R.S.M.T. College, Varanasi  |   2025</li>
+                          <li><span>B.Sc. (Computer Science)</span><br> Dr. Ghanshyam Singh PG College, Varanasi  | 2022</li>
+                          <li><span>Intermediate</span><br>Intermediate From  S.M.S. Inter College  | 2019</li>
+                          <li><span>High School</span><br>High School From H.S. Academy, Varanasi  | 2016</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- -----------------SERVICES SECTION----------------- -->
+
+              <div id="services" >
+                <div class="container">
+                  <h3 class="sub-title">My Services</h3>
+                  <div class="services-list">
+                         <div>
+                          <i class="fas fa-code"></i>
+                          <h2>Web Design</h2>
+                          <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
+                           <a href="#">Learn more</a>
+                         </div>
+
+                         <div>
+                          <i class="fas fa-crop-alt"></i>
+                          <h2>UI/UX Design</h2>
+                          <p>UI/UX design refers to the process of creating user interfaces (UI) and user experiences (UX) for digital products, such as websites, mobile apps, and software applications. UI design focuses on the visual elements of a product, including layout, color schemes, typography, and icons, while UX design focuses on the overall user experience, including usability, accessibility, and user interactions.</p>
+                          <a href="#">Learn more</a>
+                         </div>
+                  
+                         <!-- <div>
+                          <i class="fab fa-app-store"></i>
+                          <h2>App Design</h2>
+                          <p>App design refers to the process of creating the visual and interactive elements for a mobile application. It encompasses both UI (user interface) design and UX (user experience) design, with the goal of creating a user-friendly, intuitive, and visually appealing app.
+                          </p>
+                          <a href="#">Learn more</a>
+                         </div> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- ---------------portfolio---------- -->
+         
+              <div id="portfolio">
+                <div class="container">
+                  <h3 class="sub-title">My Work</h3>
+                  <div class="work-list">
+                     <div class="work">
+                      <img src="portfolio-3.jpg">
+                      <div class="layer">
+                        <h2 class="work1">E-Commerce Website</h2><br/><br/>
+                        <p class="work2">A fully functional e-commerce platform, to handle product management, order processing, user authentication and a secure shopping cart.
+                         It's features include add to cart, view product details, user registration, login/logout, and database management. Integrated secure user authentication and encryption for data protection.
+                         </p><br/><br/>
+                        <a><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="work">
+                      <img src="portfolio-1.webp">
+                      <div class="layer">
+                        <h2 class="work1">Food Inspector API</h2><br/><br/>
+                        <p>Experienced with REST-based food safety inspection APIs for retrieving submitting, and validating establishment data,
+                           inspection reports, violations, and compliance records.
+                        </p><br/><br/>
+                        <a><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="work">
+                      <img src="portfolio-2.jpg">
+                      <div class="layer">
+                        <h2 class="work1">Other Projects</h2><br/><br/>
+                        <p> 
+                         • Portfolio Website
+                         • Resume Builder
+                         • Figma UI Designs </p><br/><br/>
+                          <a><i class="fas fa-external-link-alt"></i></a>
+                        
+                      </div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              
+
+             <!-- ------------------------CONTACT SECTION------------------>
+<div id="contactme">
+<div class="contact">
+  <h3 class="sub1-title">Contact Me</h3><br/>
+  <p></i><span class="name1">ydmamta.576@gmail.com</span></p>
+  <p><i class="fa-solid fa-phone" style="background-color:white;"></i>7081303171</p>
+  <p><i class="fa fa-phone face" aria-hidden="true"></i><span class="name1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/250px-LinkedIn_logo_initials.png", height="15px", width="15px"><a href=Mamta Yadav</span></p>
+</div>
+</div>
+<div class="social-media">
+  <a href="https://www.facebook.com/shraddha.kamla?mibextid=ZbWKwL"><i class="fab fa-facebook book"></i></a>
+  <a href="https://instagram.com/__shraddha.gupta__02?igshid=ZDc4ODBmNjlmNQ=="><i class="fab fa-instagram book1"></i></a>
+  <a href="https://www.linkedin.com/in/shraddha-kamla-376191219"><i class="fa fa-linkedin-square book2"></i></a>
+  <a href="https://twitter.com/Shraddh9761958?t=RyB59YAMD2GwEM8wWlT-Tw&s=09"><i class="fa fa-twitter-square book3"></i></a>
+</div>
+<a href="file:///C:/Users/amity/OneDrive/Documents/html/Cv%20Mamta%20(1).pdf" download><button type="submit"  class="but1">Download Resume</button></a>
+<form class="form-left">
+  <input type="text" name="Name" placeholder="Enter your name" class="box"><br/><br/>
+  <input type="text" name="Email" placeholder="Enter your Email" class="box"><br/><br/><br/>
+  <textarea name="Message" class="box" rows="6" placeholder="Write your message" required></textarea><br/><br/>
+  <button type="submit" class="but">Submit</button>
+  
+ 
+</form>
+
+     </section>   
+    
+<br/><br/>
+
+
+      <!-- --------------------footer---------- -->
+      
+<footer>
+  <div class="foot1">
+    <p class="foot">CopyRight &copy; by Mamta Yadav  ||  All Rights Reserved !!</p>
+  </div>
+</footer>
+
+
+    <script src="script.js">
+
+
+
+
+    
+
+
+
+
+    </script>
+
+
+</body>
+
+
+
+
+</html>
